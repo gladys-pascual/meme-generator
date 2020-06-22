@@ -4,3 +4,11 @@
     
     font-family: 'Anton', sans-serif;
 }
+
+#meme-picture{
+    width: 500px;
+}
+
+#meme-image{
+    width: 100%;
+}
