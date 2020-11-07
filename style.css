@@ -1,14 +1,25 @@
-#meme-text{
-    font-size:40px;
-    /* color: white; */
-    
-    font-family: 'Anton', sans-serif;
+#meme-text {
+  font-size: 40px;
+  width: 500px;
+  font-family: "Anton", sans-serif;
+  padding-top: 20px;
 }
 
-#meme-picture{
-    width: 500px;
+#meme-picture {
+  width: 500px;
 }
 
-#meme-image{
-    width: 100%;
+#meme-image {
+  width: 100%;
+}
+
+.meme-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
 }

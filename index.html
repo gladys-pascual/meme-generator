@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Meme Generator</title>
-</head>
+  </head>
 
-<body>
-    <form>
-        <label for="user-text">Meme Text</label>
-        <input type="text" id="user-text" oninput="updateText()">
-        <input type="file" id="user-picture" onchange="updateImage()">
-    </form>
-    <div id="meme-text">Example Text</div>
-    <div id="meme-picture">
-        <img id="meme-image" src="https://via.placeholder.com/500" alt="">
+  <body>
+    <div class="meme-wrapper">
+      <div class="meme">
+        <div>
+          <form>
+            <label for="user-text">Meme Text</label>
+            <input type="text" id="user-text" oninput="updateText()" />
+            <input type="file" id="user-picture" onchange="updateImage()" />
+          </form>
+          <div id="meme-text">Meme text will appear here..</div>
+        </div>
+        <div id="meme-picture">
+          <img id="meme-image" src="https://via.placeholder.com/500" alt="" />
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
